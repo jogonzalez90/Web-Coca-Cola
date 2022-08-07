@@ -53,6 +53,7 @@ header .container nav a
 header .container .hamb
     {
         display: none;
+        position: relative;
     }
 
 footer
@@ -438,6 +439,11 @@ footer .redes a
         transform: translateX(100%);
     }
 
+    header .container nav.open
+    {
+        transform: translateX(0);
+    }
+
     header .container nav a
     {
         font-size: 30px;
@@ -449,6 +455,7 @@ footer .redes a
         display: block;
         font-size: 40px;
         color: red;
+        
     }
 
     form .boton.boton-negro
